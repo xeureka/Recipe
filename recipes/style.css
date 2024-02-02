@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(245, 226, 203);
+}
+
+#heading1{
+    text-align: center;
+
+}
+
+img{
+    display: inline-block;
+    margin:20px;
+    border: 20px bold rgb(223, 56, 56);
+    height:200px;
+    width:auto;
+}
+
+
+.food-items{
+    display: inline;
+
+}
