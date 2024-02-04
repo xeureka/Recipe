@@ -1,24 +1,33 @@
 *{
-    display: inline;
-    background-color: rgb(245, 226, 203);
-
+    background-color: rgb(148, 233, 148);
 }
 
-#heading1{
+
+.head1{
     text-align: center;
-
+    color:rgb(92, 5, 5);
+    margin-top:13px;
+    padding:4px;
 }
 
-img{
+.par1{
     display: inline-block;
-    margin:20px;
-    border: 20px bold rgb(223, 56, 56);
-    height:200px;
-    width:auto;
+    margin-left:400px;
+    background-color: aquamarine;
+    
 }
 
+.head2{
+    margin-left: 100px;
+}
 
 .food-items{
-    display: inline;
+    margin:20px;
+    padding:20px;
+    margin-left:150px;
+}
 
+.burger{
+    display: inline-block;
+    margin-bottom:20px;
 }

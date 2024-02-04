@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(251, 241, 228);
+}
+
+
+.head{
+    text-align: center;
+    margin:30px;
+    padding:10px;
+}
+
+
+.par1{
+    margin:20px;
+    padding:5px;
+
+    background-color: rgb(182, 249, 249);
+}
+
+
+.ing{
+    margin:20px;
+    padding:5px;
+
+    background-color: rgb(21, 21, 20);
+}
+
+.steps{
+    margin:20px;
+    margin-bottom: 30px;
+}
