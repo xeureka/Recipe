@@ -1,33 +1,40 @@
-*{
-    background-color: rgb(148, 233, 148);
+.first-heading{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
 }
 
 
-.head1{
-    text-align: center;
-    color:rgb(92, 5, 5);
-    margin-top:13px;
-    padding:4px;
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
 }
 
-.par1{
-    display: inline-block;
-    margin-left:400px;
-    background-color: aquamarine;
-    
-}
 
-.head2{
-    margin-left: 100px;
-}
-
-.food-items{
+.image-cont img{
     margin:20px;
-    padding:20px;
-    margin-left:150px;
+    border:2px solid red;
+    width:1800px;
+    height:700px;
+    display: block;
 }
 
-.burger{
-    display: inline-block;
-    margin-bottom:20px;
-}
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+     
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 50px; 
+    text-align: center;
+  }
+
+
+ button{
+    
+    gap: 20px;
+ }
