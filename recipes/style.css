@@ -3,7 +3,10 @@
     justify-content: center;
     background-color: aqua;
 }
-
+#photo{
+    height:100px;
+    width:auto;
+}
 
 .container{
     background-color: antiquewhite;
@@ -19,6 +22,9 @@
     width:1800px;
     height:700px;
     display: block;
+
+
+    
 }
 
 .overlay-text {
@@ -27,14 +33,28 @@
     left: 50%; 
     transform: translate(-50%, -50%); 
      
-    color: #fff; 
+    color: #000;
+    background-color: aqua; 
     padding: 10px 20px; 
     font-size: 50px; 
     text-align: center;
   }
 
 
- button{
-    
-    gap: 20px;
- }
+  button{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-right: 1200px;
+  }
+
+
+  .final-container{
+    background-color: aqua;
+    height:400px;
+    width:auto;
+    display:flex;
+
+  }
+
+
