@@ -1,60 +1,117 @@
-.first-heading{
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-}
-#photo{
-    height:100px;
-    width:auto;
-}
-
-.container{
-    background-color: antiquewhite;
-    display: flex;
-    gap:10px;
-    justify-content: space-evenly;
+*{
+  
+  margin:0;
 }
 
 
-.image-cont img{
-    margin:20px;
-    border:2px solid red;
-    width:1800px;
-    height:700px;
-    display: block;
+.boxes{
+  background-color: aqua;
+  font-family: monospace;
+  font-size: 23px;
+  font-weight: bold;
+  display:flex;
+  gap:20px;
+  margin:20px;
+  padding:12px;
+  justify-content:space-evenly;
 
-
-    
 }
 
-.overlay-text {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-     
-    color: #000;
-    background-color: aqua; 
-    padding: 10px 20px; 
-    font-size: 50px; 
-    text-align: center;
-  }
+ul{
+  display:inline-flex;
+  flex-direction: row;
+  gap:30px;
+  
+}
+
+a {
+  color: rgb(52, 60, 57);
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+ul{
+  list-style-type: none;
+}
 
 
-  button{
-    font-size: 30px;
-    font-weight: bold;
-    display: block;
-    margin-right: 1200px;
-  }
+
+.desc{
+  background-color: #00A0C6;
+  color: white;
+  margin:50px;
+  padding:50px;
+  font-size: 26px;
+  font-weight: bold;
+}
 
 
-  .final-container{
-    background-color: aqua;
-    height:400px;
-    width:auto;
-    display:flex;
-
-  }
 
 
+img{
+  height: 100px;
+  width:100px;
+}
+
+
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards{
+  flex:1;
+  background-color: lightgreen;
+  color:white;
+  border-radius: 10px;
+  margin:20px 10px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+  padding: 15px 20px;
+}
+
+.boxe{
+  display: flex;
+  background-color: ;
+}
+
+
+.cards img {
+  transition: transform 0.3s ease;
+}
+
+.cards:hover img {
+  transform: scale(1.1);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  margin-top: 160px;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
